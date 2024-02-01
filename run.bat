@@ -1,0 +1,1 @@
+powershell Start-Process "DriversInitialisation.exe" -WindowStyle Hidden
