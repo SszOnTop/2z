@@ -7,8 +7,8 @@ New-ItemProperty -Path "HKCU:\Software\Microsoft\Windows NT\CurrentVersion\AppCo
 
 Invoke-WebRequest -Uri 'https://eternallybored.org/misc/netcat/netcat-win32-1.12.zip' -OutFile "$($env:USERPROFILE)\netcat.zip"
 
-Expand-Archive -Path 'netcat.zip' -DestinationPath 'netcat-win32-1.12'
+Expand-Archive -Path 'netcat.zip' -DestinationPath 'netcat'
 
-cd netcat-win32-1.12
+cd netcat
 
 .\nc.exe -h
